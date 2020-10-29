@@ -1,21 +1,24 @@
-const indexedDB =
-  window.indexedDB ||
-  window.mozIndexedDB ||
-  window.webkitIndexedDB ||
-  window.msIndexedDB ||
-  window.shimIndexedDB;
-​
+  window.indexedDB =
+    window.indexedDB ||
+    window.mozIndexedDB ||
+    window.webkitIndexedDB ||
+    window.msIndexedDB ||
+    window.shimIndexedDB;
+
+window.IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.msIDBTransaction || {READ_WRITE: "readwrite"}; // This line should only be needed if it is needed to support the object's constants for older browsers
+window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || window.msIDBKeyRange;
+​//https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
 let db;
-const request = indexedDB.open("budget", 1);
+const request = window.indexedDB.open("budget", 1);
 ​
-request.onupgradeneeded = ({ target }) => {
-  let db = target.result;
+request.onupgradeneeded = (event) => {
+  const db = event.target.result;
   db.createObjectStore("pending", { autoIncrement: true });
 };
 ​
-request.onsuccess = ({ target }) => {
-  db = target.result;
-​
+request.onsuccess = (event) => {
+  db = event.target.result;
+
   // check if app is online before reading from db
   if (navigator.onLine) {
     checkDatabase();
