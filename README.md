@@ -12,6 +12,7 @@ A budget tracker application to allow for offline access and functionality.
 
 ## *Table of Contents*
 - [Description](#description)
+- [User Story](#user-story)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -21,7 +22,7 @@ A budget tracker application to allow for offline access and functionality.
 - [License](#license)
 
 ## *Description* 
-This assignment uses an existing Budget Tracker application from a previous in class activity to allow for offline access and functionality.
+This assignment uses an existing Budget Tracker application from a previous in-class activity to allow for offline access and functionality.
 
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
@@ -34,6 +35,10 @@ Offline Functionality:
 When brought back online:
 
   * Offline entries should be added to tracker.
+
+
+---
+
 
 #### **User Story**
 AS AN avid traveller
@@ -50,21 +55,26 @@ GIVEN a user is on Budget App without an internet connection
 WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
+
+
+---
+
+
 ## *Installation* 
- - After cloning the repo, run ```npm install``` from your terminal to install the necessary dependencies:
+ After cloning the repo, run ```npm install``` from your terminal to install the necessary dependencies:
  
-    - ```mongoose ```
+  - ```mongoose ```
 
-    - ```express ```
+  - ```express ```
 
-    - ```morgan ```
+  - ```morgan ```
 
-    - ```compression```
+  - ```compression```
 
-    - ```lite-server```
+  - ```lite-server```
 
 ## *Usage*
-- To use lacally, run ```npm start``` from your terminal and use ```localhost:3000``` in your browser.
+To use locally, run ```npm start``` from your terminal and use ```localhost:3000``` in your browser.
 
 To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application.
 
