@@ -1,12 +1,12 @@
-# Budget-Tracker
-Budget Tracker application to allow for offline access and functionality.
+# Progressive Budget Tracker
+A budget tracker application to allow for offline access and functionality.
 
 [![Personal IDBadge](https://img.shields.io/badge/Dev-BwayCarl-red)](https://bwaycarl.github.io/Portfolio/)
 [![GitHub license](https://img.shields.io/github/license/BwayCarl/Workout-Tracker)](https://github.com/BwayCarl/Budget-Tracker/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/BwayCarl/Budget-Tracker)](https://github.com/BwayCarl/Budget-Tracker/issues)
 [![GitHub forks](https://img.shields.io/github/forks/BwayCarl/Budget-Tracker)](https://github.com/BwayCarl/Budget-Tracker/network)
 [![GitHub stars](https://img.shields.io/github/stars/BwayCarl/Budget-Tracker)](https://github.com/BwayCarl/Budget-Tracker/stargazers)
-## Homework Assignment - Unit 17
+## Homework Assignment - Unit 18
 #### Rutgers Coding Bootcamp / RUT-JER-FSF-PT-06-2020-U-C
 
 ## *Table of Contents*
@@ -62,13 +62,12 @@ THEN that will be shown on the page, and added to their transaction history when
 
     - ```lite-server```
 
-- Run ```nodemon server.js``` from your terminal and use ```localhost:3000``` in your browser.
+## *Usage*
+- To use lacally, run ```npm start``` from your terminal and use ```localhost:3000``` in your browser.
 
 To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application.
 
-
-## *Usage*
-You can use this app using this **[Heroku Link (TBD).]()**
+The deployed application can be used at this **[Heroku Link (TBD).]()**
 
 ## *Authors* 
  Carlos Martinez
@@ -77,6 +76,11 @@ You can use this app using this **[Heroku Link (TBD).]()**
 
 ## *Screenshots* 
 
+<img src="public/assets/budget-tracker-1.png" width="480">
+
+<img src="public/assets/budget-tracker-3.png" width="480">
+
+![budget-demo-gif](public/assets/budget-tracker-demo.gif)
 
 ## *Contact Me*
  - Github: **[BwayCarl](https://github.com/BwayCarl)**
