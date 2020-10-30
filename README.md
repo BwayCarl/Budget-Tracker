@@ -68,7 +68,7 @@ THEN that will be shown on the page, and added to their transaction history when
 
 To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application.
 
-The deployed application can be used at this **[Heroku Link (TBD).]()**
+The deployed application can be used at this **[Heroku Link.](https://rocky-dawn-81206.herokuapp.com/)**
 
 ## *Authors* 
  Carlos Martinez
