@@ -6,6 +6,7 @@ A budget tracker application to allow for offline access and functionality.
 [![GitHub issues](https://img.shields.io/github/issues/BwayCarl/Budget-Tracker)](https://github.com/BwayCarl/Budget-Tracker/issues)
 [![GitHub forks](https://img.shields.io/github/forks/BwayCarl/Budget-Tracker)](https://github.com/BwayCarl/Budget-Tracker/network)
 [![GitHub stars](https://img.shields.io/github/stars/BwayCarl/Budget-Tracker)](https://github.com/BwayCarl/Budget-Tracker/stargazers)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FBwayCarl%2FBudget-Tracker)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FBwayCarl%2FBudget-Tracker)
 ## Homework Assignment - Unit 18
 #### Rutgers Coding Bootcamp / RUT-JER-FSF-PT-06-2020-U-C
 
